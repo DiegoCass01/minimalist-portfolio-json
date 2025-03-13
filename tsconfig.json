@@ -6,7 +6,8 @@
     "baseUrl": ".",
     "paths": {
       "@cv": ["./cv.json"],
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@icons/*": ["src/assets/icons/*"]
     }
   }
 }
