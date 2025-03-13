@@ -243,18 +243,14 @@
       "name": "Jammy Music",
       "isActive": true,
       "description": "Developed the Jammy Music application using Flutter for Android and iOS. This app allows teachers and students of a music academy to access classes and music content, enhancing musical learning and teaching through an intuitive and accessible platform.",
-      "highlights": [
-        ""
-      ],
+      "highlights": [],
       "url": "https://play.google.com/store/apps/details?id=com.igrtec.jammy&pcampaignid=web_share"
     },
     {
       "name": "GYMTASTIC",
       "isActive": true,
       "description": "Throughout my academic journey, I collaborated in the GYMTASTIC project, an innovative initiative focused on the design and development of a cutting-edge mobile application. This platform enables users to effectively organize their workout routines while facilitating direct and personalized communication between trainers and clients.",
-      "highlights": [
-        ""
-      ],
+      "highlights": [],
       "url": "https://play.google.com/store/apps/details?id=com.igrtec.gymtasticbro&pcampaignid=web_share"
     }
   ]
