@@ -24,7 +24,7 @@
     background: #fff;
     letter-spacing: -0.025rem;
   }
-  ,
+
   body,
   figure {
     margin: 0;
@@ -67,10 +67,32 @@
   }
 
   p {
-    color: #888;
-    font-size: 0.8rem;
+    color: #666;
+    font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
+  }
+
+  .print {
+    display: none !important;
+  }
+
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+
+    .print {
+      display: block !important;
+    }
+
+    astro-dev-toolbar {
+      display: none !important;
+    }
+
+    article {
+      break-inside: avoid;
+    }
   }
 </style>

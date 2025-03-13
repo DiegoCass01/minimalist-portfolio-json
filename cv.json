@@ -5,8 +5,8 @@
     "image": "/me.webp",
     "email": "diego.castillo170901@gmail.com",
     "phone": "+52 8311220151",
-    "url": "https://midu.dev",
-    "summary": "",
+    "url": "",
+    "summary": "Started as a Flutter developer, building intuitive mobile apps. Expanded into full-stack development, working with React, Redux, TypeScript, and APIs to create scalable solutions. Passionate about problem-solving, collaboration, and continuous learning. Always open to new challenges!",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,35 +29,14 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "name": "IGRTEC",
+      "position": "Flutter developer",
+      "url": "",
+      "startDate": "August 2023",
+      "endDate": "September 2024",
+      "summary": "At IGRTEC, I worked on building and optimizing mobile applications using Flutter, Dart, and popular libraries. I collaborated closely with backend developers and designers to create intuitive and user-friendly experiences.",
       "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
+        ""
       ]
     }
   ],
@@ -76,15 +55,15 @@
   ],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Instituto Tecnológico Superior de El Mante",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
+      "area": "Ingeniero en Sistemas Computacionales",
       "studyType": "Bachelor",
       "startDate": "2003-01-01",
       "endDate": "2009-01-01",
-      "score": "4.0",
+      "score": "",
       "courses": [
-        "DB1101 - Basic SQL"
+        ""
       ]
     }
   ],
@@ -115,110 +94,122 @@
   ],
   "skills": [
     {
-      "name": "HTML",
-      "level": "Master",
+      "name": "React.js",
+      "level": null,
       "keywords": [
-        "Desarrollo Web",
-        "Frontend"
+        "Frontend",
+        "UI Development",
+        "Component-based Architecture"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Semantic HTML"
       ]
     },
     {
       "name": "CSS",
-      "level": "Master",
+      "level": null,
       "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Diseño Responsive"
+        "Styling",
+        "Responsive Design",
+        "Flexbox",
+        "Grid"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": null,
+      "keywords": [
+        "Backend",
+        "JavaScript Runtime",
+        "API Development"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "level": null,
+      "keywords": [
+        "Backend",
+        "REST API",
+        "Middleware"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "keywords": [
+        "NoSQL",
+        "Database",
+        "Mongoose"
       ]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": null,
       "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "JavaScript",
-        "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
+        "ES6+",
+        "Web Development",
+        "Asynchronous Programming"
       ]
     },
     {
       "name": "Git",
-      "level": "Avanzado",
+      "level": null,
       "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente"
+        "Version Control",
+        "Branching",
+        "Collaboration"
       ]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
+      "level": null,
       "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
+        "Repositories",
+        "Pull Requests",
+        "CI/CD"
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Avanzado",
+      "name": "SQL",
+      "level": null,
       "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
+        "Relational Databases",
+        "Queries",
+        "MySQL",
+        "PostgreSQL"
       ]
     },
     {
-      "name": "React",
-      "level": "Avanzado",
+      "name": "Java",
+      "level": null,
       "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
+        "OOP",
+        "Backend",
+        "Spring Boot"
+      ]
+    },
+    {
+      "name": "XML",
+      "level": null,
+      "keywords": [
+        "Data Exchange",
+        "Markup Language",
+        "Configuration Files"
+      ]
+    },
+    {
+      "name": "Flutter",
+      "level": null,
+      "keywords": [
+        "Cross-platform Development",
+        "Dart",
+        "Mobile Development"
       ]
     }
   ],
@@ -249,66 +240,22 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Jammy Music",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Developed the Jammy Music application using Flutter for Android and iOS. This app allows teachers and students of a music academy to access classes and music content, enhancing musical learning and teaching through an intuitive and accessible platform.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        ""
       ],
-      "url": "https://mars.codes"
+      "url": "https://play.google.com/store/apps/details?id=com.igrtec.jammy&pcampaignid=web_share"
     },
     {
-      "name": "AdventJS",
+      "name": "GYMTASTIC",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Throughout my academic journey, I collaborated in the GYMTASTIC project, an innovative initiative focused on the design and development of a cutting-edge mobile application. This platform enables users to effectively organize their workout routines while facilitating direct and personalized communication between trainers and clients.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        ""
       ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://play.google.com/store/apps/details?id=com.igrtec.gymtasticbro&pcampaignid=web_share"
     }
   ]
 }
