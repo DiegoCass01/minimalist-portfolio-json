@@ -1,6 +1,8 @@
 ---
 import { basics } from "@cv";
 import Section from "@/components/Section.astro";
+import Mail from "@/assets/icons/Mail.astro";
+import Phone from "@/assets/icons/Phone.astro";
 const { name, label, image, location, profiles, phone, email } = basics;
 const { state, country } = location;
 ---
@@ -15,13 +17,27 @@ const { state, country } = location;
       </span>
       <footer>
         {
+          phone && (
+            <a
+              href={`tel:${phone}`}
+              title={`Call to ${name} => ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone />
+            </a>
+          )
+        }
+        {
           email && (
             <a
               href={`mailto:${email}`}
               title={`Send email to ${name} to ${email}`}
               target="_blank"
               rel="noopener noreferrer"
-            />
+            >
+              <Mail />
+            </a>
           )
         }
       </footer>
