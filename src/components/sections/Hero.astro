@@ -9,8 +9,7 @@ import GitHub from "@icons/GitHub.astro";
 import WorldMap from "@icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
 
-const { name, label, image, location, profiles, extension, phone, email } =
-  basics;
+const { name, label, image, location, profiles, phone, email } = basics;
 const { state, country } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -21,9 +20,7 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedinInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedinInfo?.url;
 
-const printInfo = [email, `${extension} ${phone}`, linkedUrl]
-  .filter(Boolean)
-  .join(" • ");
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -54,7 +51,7 @@ const printInfo = [email, `${extension} ${phone}`, linkedUrl]
         {
           phone && (
             <a
-              href={`https://wa.me/${phone}`}
+              href={`https://wa.me${phone}`}
               title={`Chat on WhatsApp with me`}
               target="_blank"
               rel="noopener noreferrer"
@@ -66,7 +63,7 @@ const printInfo = [email, `${extension} ${phone}`, linkedUrl]
         {
           phone && (
             <a
-              href={`tel:${extension}${phone}`}
+              href={`tel:${phone}`}
               title={`Call to ${name}`}
               target="_blank"
               rel="noopener noreferrer"
