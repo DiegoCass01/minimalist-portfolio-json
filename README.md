@@ -8,4 +8,4 @@
 
 - [Astro](https://astro.build/) - The web framework of the new era.
 - [TypeScript](https://www.typescriptlang.org/) - JavaScript with type syntax.
-- [Ninja Keys](https://github.com/ssleptsov/ninja-keys) - A dropdown menu with keyboard shortcuts built in pure JavaScript.
+- [HotKeypad](https://github.com/jesubohr/hotkeypad) - Lightweight package that provides you with a keyboard shortcuts interface for your website. Built with vanilla JS, no external dependencies.
