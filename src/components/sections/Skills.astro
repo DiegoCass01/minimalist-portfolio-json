@@ -1,39 +1,48 @@
 ---
 import Section from "@/components/Section.astro";
 import { skills } from "@cv";
-
-import CSS from "@icons/css.astro";
-import JavaScript from "@icons/javascript.astro";
-import TypeScript from "@icons/type.astro";
-import React from "@icons/react.astro";
-import Node from "@icons/node.astro";
-import MySQL from "@icons/sql.astro";
-import Git from "@icons/git.astro";
-import GitHub from "@icons/GitHub.astro";
-import Tailwind from "@icons/tailwind.astro";
-import Next from "@icons/next.astro";
-import Swift from "@icons/swift.astro";
-import SwiftUI from "@icons/swiftui.astro";
-import kotlin from "@icons/kotlin.astro";
+import html from "@icons/html.astro";
+import css from "@icons/css.astro";
+import javascript from "@icons/javascript.astro";
+import typescript from "@icons/typescript.astro";
+import reactjs from "@icons/reactjs.astro";
+import nodejs from "@icons/nodejs.astro";
+import sql from "@icons/sql.astro";
+import mysql from "@icons/mysql.astro";
+import git from "@icons/git.astro";
+import github from "@icons/github.astro";
+import nextjs from "@icons/nextjs.astro";
 import flutter from "@icons/flutter.astro";
-import html from "@/assets/icons/html.astro";
+import java from "@icons/java.astro";
+import xml from "@icons/xml.astro";
+import expressjs from "@icons/expressjs.astro";
+import astro from "@icons/astro.astro";
+import mongodb from "@icons/mongodb.astro";
+import postman from "@icons/postman.astro";
+import graphql from "@icons/graphql.astro";
+import vercel from "@icons/vercel.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
   html,
-  CSS,
-  JavaScript,
-  TypeScript,
-  React,
-  Node,
-  MySQL,
-  Git,
-  GitHub,
-  Next,
-  Tailwind,
-  Swift,
-  SwiftUI,
-  kotlin,
+  css,
+  javascript,
+  typescript,
+  reactjs,
+  nodejs,
+  sql,
+  mysql,
+  git,
+  github,
+  nextjs,
   flutter,
+  java,
+  xml,
+  expressjs,
+  astro,
+  mongodb,
+  postman,
+  graphql,
+  vercel,
 };
 ---
 
@@ -43,11 +52,10 @@ const SKILLS_ICONS: Record<string, any> = {
       Object.entries(skills).map(([category, items]) => {
         return (
           <article>
-            <header>{category}</header>
+            <header>{category.toUpperCase()}</header>
             <footer>
               {items.map(({ name }) => {
-                const iconName = name === "Next.js" ? "Next" : name;
-                const Icon = SKILLS_ICONS[iconName];
+                const Icon = SKILLS_ICONS[name.toLowerCase()];
 
                 return (
                   <li>
