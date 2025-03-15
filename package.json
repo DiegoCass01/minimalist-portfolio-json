@@ -11,5 +11,8 @@
   "dependencies": {
     "astro": "^5.4.3",
     "hotkeypad": "^1.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }
