@@ -92,127 +92,133 @@
       "summary": "Description…"
     }
   ],
-  "skills": [
-    {
-      "name": "React.js",
-      "level": null,
-      "keywords": [
-        "Frontend",
-        "UI Development",
-        "Component-based Architecture"
-      ]
-    },
-    {
-      "name": "HTML",
-      "level": null,
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Semantic HTML"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": null,
-      "keywords": [
-        "Styling",
-        "Responsive Design",
-        "Flexbox",
-        "Grid"
-      ]
-    },
-    {
-      "name": "Node.js",
-      "level": null,
-      "keywords": [
-        "Backend",
-        "JavaScript Runtime",
-        "API Development"
-      ]
-    },
-    {
-      "name": "Express.js",
-      "level": null,
-      "keywords": [
-        "Backend",
-        "REST API",
-        "Middleware"
-      ]
-    },
-    {
-      "name": "MongoDB",
-      "level": null,
-      "keywords": [
-        "NoSQL",
-        "Database",
-        "Mongoose"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": null,
-      "keywords": [
-        "ES6+",
-        "Web Development",
-        "Asynchronous Programming"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": null,
-      "keywords": [
-        "Version Control",
-        "Branching",
-        "Collaboration"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": null,
-      "keywords": [
-        "Repositories",
-        "Pull Requests",
-        "CI/CD"
-      ]
-    },
-    {
-      "name": "SQL",
-      "level": null,
-      "keywords": [
-        "Relational Databases",
-        "Queries",
-        "MySQL",
-        "PostgreSQL"
-      ]
-    },
-    {
-      "name": "Java",
-      "level": null,
-      "keywords": [
-        "OOP",
-        "Backend",
-        "Spring Boot"
-      ]
-    },
-    {
-      "name": "XML",
-      "level": null,
-      "keywords": [
-        "Data Exchange",
-        "Markup Language",
-        "Configuration Files"
-      ]
-    },
-    {
-      "name": "Flutter",
-      "level": null,
-      "keywords": [
-        "Cross-platform Development",
-        "Dart",
-        "Mobile Development"
-      ]
-    }
-  ],
+  "skills": {
+    "languages": [
+      {
+        "name": "JavaScript",
+        "level": null,
+        "keywords": [
+          "ES6+",
+          "Web Development",
+          "Asynchronous Programming"
+        ]
+      },
+      {
+        "name": "Java",
+        "level": null,
+        "keywords": [
+          "OOP",
+          "Backend",
+          "Spring Boot"
+        ]
+      },
+      {
+        "name": "SQL",
+        "level": null,
+        "keywords": [
+          "Relational Databases",
+          "Queries",
+          "MySQL",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "XML",
+        "level": null,
+        "keywords": [
+          "Data Exchange",
+          "Markup Language",
+          "Configuration Files"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "React.js",
+        "level": null,
+        "keywords": [
+          "Frontend",
+          "UI Development",
+          "Component-based Architecture"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "level": null,
+        "keywords": [
+          "Backend",
+          "JavaScript Runtime",
+          "API Development"
+        ]
+      },
+      {
+        "name": "Express.js",
+        "level": null,
+        "keywords": [
+          "Backend",
+          "REST API",
+          "Middleware"
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "level": null,
+        "keywords": [
+          "NoSQL",
+          "Database",
+          "Mongoose"
+        ]
+      },
+      {
+        "name": "Flutter",
+        "level": null,
+        "keywords": [
+          "Cross-platform Development",
+          "Dart",
+          "Mobile Development"
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "name": "HTML",
+        "level": null,
+        "keywords": [
+          "Web Development",
+          "Frontend",
+          "Semantic HTML"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": null,
+        "keywords": [
+          "Styling",
+          "Responsive Design",
+          "Flexbox",
+          "Grid"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": null,
+        "keywords": [
+          "Version Control",
+          "Branching",
+          "Collaboration"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": null,
+        "keywords": [
+          "Repositories",
+          "Pull Requests",
+          "CI/CD"
+        ]
+      }
+    ]
+  },
   "languages": [
     {
       "language": "Spanish",
