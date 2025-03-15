@@ -40,19 +40,6 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
-  ],
   "education": [
     {
       "institution": "Instituto Tecnológico Superior de El Mante",
@@ -92,127 +79,174 @@
       "summary": "Description…"
     }
   ],
-  "skills": [
-    {
-      "name": "React.js",
-      "level": null,
-      "keywords": [
-        "Frontend",
-        "UI Development",
-        "Component-based Architecture"
-      ]
-    },
-    {
-      "name": "HTML",
-      "level": null,
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Semantic HTML"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": null,
-      "keywords": [
-        "Styling",
-        "Responsive Design",
-        "Flexbox",
-        "Grid"
-      ]
-    },
-    {
-      "name": "Node.js",
-      "level": null,
-      "keywords": [
-        "Backend",
-        "JavaScript Runtime",
-        "API Development"
-      ]
-    },
-    {
-      "name": "Express.js",
-      "level": null,
-      "keywords": [
-        "Backend",
-        "REST API",
-        "Middleware"
-      ]
-    },
-    {
-      "name": "MongoDB",
-      "level": null,
-      "keywords": [
-        "NoSQL",
-        "Database",
-        "Mongoose"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": null,
-      "keywords": [
-        "ES6+",
-        "Web Development",
-        "Asynchronous Programming"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": null,
-      "keywords": [
-        "Version Control",
-        "Branching",
-        "Collaboration"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": null,
-      "keywords": [
-        "Repositories",
-        "Pull Requests",
-        "CI/CD"
-      ]
-    },
-    {
-      "name": "SQL",
-      "level": null,
-      "keywords": [
-        "Relational Databases",
-        "Queries",
-        "MySQL",
-        "PostgreSQL"
-      ]
-    },
-    {
-      "name": "Java",
-      "level": null,
-      "keywords": [
-        "OOP",
-        "Backend",
-        "Spring Boot"
-      ]
-    },
-    {
-      "name": "XML",
-      "level": null,
-      "keywords": [
-        "Data Exchange",
-        "Markup Language",
-        "Configuration Files"
-      ]
-    },
-    {
-      "name": "Flutter",
-      "level": null,
-      "keywords": [
-        "Cross-platform Development",
-        "Dart",
-        "Mobile Development"
-      ]
-    }
-  ],
+  "skills": {
+    "languages": [
+      {
+        "name": "JavaScript",
+        "level": null,
+        "keywords": [
+          "ES6+",
+          "Web Development",
+          "Asynchronous Programming"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": null,
+        "keywords": [
+          "Superset of JavaScript",
+          "Static Typing",
+          "Web Development",
+          "ES6+"
+        ]
+      },
+      {
+        "name": "Java",
+        "level": null,
+        "keywords": [
+          "OOP",
+          "Backend",
+          "Spring Boot"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": null,
+        "keywords": [
+          "Relational Databases",
+          "Queries",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "SQL",
+        "level": null,
+        "keywords": [
+          "Relational Databases",
+          "Queries",
+          "SQL"
+        ]
+      },
+      {
+        "name": "XML",
+        "level": null,
+        "keywords": [
+          "Data Exchange",
+          "Markup Language",
+          "Configuration Files"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "Reactjs",
+        "level": null,
+        "keywords": [
+          "Frontend",
+          "UI Development",
+          "Component-based Architecture"
+        ]
+      },
+      {
+        "name": "Nodejs",
+        "level": null,
+        "keywords": [
+          "Backend",
+          "JavaScript Runtime",
+          "API Development"
+        ]
+      },
+      {
+        "name": "Expressjs",
+        "level": null,
+        "keywords": [
+          "Backend",
+          "REST API",
+          "Middleware"
+        ]
+      },
+      {
+        "name": "Astro",
+        "level": null,
+        "keywords": [
+          "Frontend Framework",
+          "Static Site Generation",
+          "Server-Side Rendering (SSR)",
+          "Jamstack"
+        ]
+      },
+      {
+        "name": "Flutter",
+        "level": null,
+        "keywords": [
+          "Cross-platform Development",
+          "Dart",
+          "Mobile Development"
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "name": "GitHub",
+        "level": null,
+        "keywords": [
+          "Repositories",
+          "Pull Requests",
+          "CI/CD"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": null,
+        "keywords": [
+          "Version Control",
+          "Branching",
+          "Collaboration"
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "level": null,
+        "keywords": [
+          "NoSQL",
+          "Database",
+          "Mongoose"
+        ]
+      },
+      {
+        "name": "Postman",
+        "level": null,
+        "keywords": [
+          "API Testing",
+          "API Development",
+          "Automation",
+          "REST APIs",
+          "Request/Response"
+        ]
+      },
+      {
+        "name": "GraphQL",
+        "level": null,
+        "keywords": [
+          "API",
+          "Data Fetching",
+          "Query Language",
+          "Backend"
+        ]
+      },
+      {
+        "name": "Vercel",
+        "level": null,
+        "keywords": [
+          "Deployment",
+          "Hosting",
+          "Frontend Deployment",
+          "CI/CD",
+          "Serverless Functions"
+        ]
+      }
+    ]
+  },
   "languages": [
     {
       "language": "Spanish",
@@ -221,21 +255,6 @@
     {
       "language": "English",
       "fluency": "Advanced"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
     }
   ],
   "projects": [
