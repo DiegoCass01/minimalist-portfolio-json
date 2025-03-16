@@ -39,6 +39,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         {
           email && (
             <a
+              class="icons"
               href={`mailto:${email}`}
               title={`Send email to ${name} to ${email}`}
               target="_blank"
@@ -51,6 +52,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         {
           phone && (
             <a
+              class="icons"
               href={`https://wa.me/${phone}`}
               title={`Chat on WhatsApp with me`}
               target="_blank"
@@ -63,6 +65,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         {
           phone && (
             <a
+              class="icons"
               href={`tel:${phone}`}
               title={`Call to ${name}`}
               target="_blank"
@@ -78,6 +81,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 
             return (
               <a
+                class="icons"
                 href={url}
                 title={`Visit my profile ${name} on ${network}`}
                 target="_blank"
