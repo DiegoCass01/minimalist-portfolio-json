@@ -7,22 +7,31 @@ import { work } from "@cv";
 <Section title="Experience">
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary }) => {
+      work.map(({ name, startDate, endDate, position, summary, url }) => {
         return (
           <li>
             <article>
               <header>
                 <div>
-                  <h3>{name}</h3>
-                  <h4>{position}</h4>
+                  <h3>
+                    <a
+                      href={url}
+                      title="See project"
+                      target="_blank"
+                      class="title-in-section"
+                    >
+                      {name}
+                    </a>
+                  </h3>
+                  <h4 class="title-in-section position">{position}</h4>
                 </div>
-                <time>
+                <time class="work-period">
                   {startDate} - {endDate}
                 </time>
               </header>
 
               <footer>
-                <p>{summary}</p>
+                <p class="desc">{summary}</p>
               </footer>
             </article>
           </li>
@@ -39,21 +48,11 @@ import { work } from "@cv";
     gap: 32px;
   }
 
-  article h3 {
+  .title-in-section {
     font-weight: 500;
-    color: #111;
   }
 
-  article a {
-    color: #111;
-  }
-
-  article a:hover {
-    text-decoration: underline;
-  }
-
-  article h4 {
-    color: #222;
+  .title-in-section .position {
     font-weight: 400;
   }
 
@@ -62,13 +61,6 @@ import { work } from "@cv";
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 4px;
-  }
-
-  time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
-    cursor: default;
   }
 
   [data-title]:hover:after {
@@ -106,7 +98,7 @@ import { work } from "@cv";
   }
 
   @media (width <= 700px) {
-    time {
+    .work-period {
       text-align: right;
     }
   }

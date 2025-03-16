@@ -26,47 +26,62 @@
       "Courier New",
       Courier,
       monospace;
-    background: #fff;
+    background: white;
     letter-spacing: -0.025rem;
   }
 
-  .dark {
-    background-color: #1a1a2e;
-    color: white;
+  .title-section {
+    color: black;
   }
 
-  .dark h1,
-  .dark h2,
-  .dark h3,
-  .dark h4,
-  .dark p,
-  .dark time,
-  .dark a,
-  .dark span {
-    color: white !important;
+  .title-in-section {
+    color: #111;
   }
 
-  .dark .skillList {
-    color: black !important;
+  .title-in-section .position {
+    color: #111;
   }
 
-  .dark #normal-footer {
-    background-color: #1a1a2e;
-    border-top: 1px solid #eee;
+  .title-in-section:hover {
+    text-decoration: underline;
   }
 
-  .dark kbd {
-    color: #1a1a2e !important;
+  .hero {
+    color: #222;
+  }
+
+  .work-period {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+    cursor: default;
+  }
+
+  #hero-loc {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .desc {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  .title-category {
+    color: black;
   }
 
   body,
   figure {
     margin: 0;
     padding: 0;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   ul {
@@ -100,16 +115,51 @@
       sans-serif;
   }
 
-  p {
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin: 0;
-    text-wrap: pretty;
-  }
-
   .print {
     display: none !important;
+  }
+
+  .dark {
+    background-color: #1a1a2e;
+    color: white;
+  }
+
+  .dark .title-section {
+    color: white;
+  }
+
+  .dark .title-in-section {
+    color: white;
+  }
+
+  .dark .title-in-section .position,
+  .dark .work-period {
+    color: white;
+  }
+
+  .dark .hero,
+  .dark #hero-loc,
+  .dark .desc {
+    color: white;
+  }
+
+  .dark span {
+    color: white !important;
+  }
+
+  .dark .skillList {
+    color: black !important;
+  }
+  .dark .title-category {
+    color: white;
+  }
+
+  .dark #normal-footer {
+    background-color: #1a1a2e;
+  }
+
+  .dark kbd {
+    background-color: transparent !important;
   }
 
   @media print {
@@ -119,6 +169,24 @@
 
     .print {
       display: block !important;
+      color: #1a1a2e !important;
+    }
+
+    .hero,
+    #hero-loc,
+    .desc,
+    .work-period,
+    .title-section,
+    .title-category {
+      color: black !important;
+    }
+
+    .title-in-section {
+      color: #111 !important;
+    }
+
+    article h4 {
+      color: #222 !important;
     }
 
     astro-dev-toolbar {

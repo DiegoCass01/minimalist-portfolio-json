@@ -12,12 +12,17 @@ import { projects } from "@cv";
             <article>
               <header>
                 <h3>
-                  <a href={url} title="See project" target="_blank">
+                  <a
+                    href={url}
+                    title="See project"
+                    target="_blank"
+                    class="title-in-section"
+                  >
                     {name}
                   </a>
                   {isActive && <span>&bull;</span>}
                 </h3>
-                <p>{description}</p>
+                <p class="desc">{description}</p>
               </header>
               <footer>
                 {highlights.map((highlight) => {
@@ -54,15 +59,7 @@ import { projects } from "@cv";
   }
 
   article h3 {
-    margin-bottom: 4px;
-  }
-
-  article a {
-    color: #111;
-  }
-
-  article a:hover {
-    text-decoration: underline;
+    margin-bottom: 16px;
   }
 
   article p {
@@ -126,6 +123,10 @@ import { projects } from "@cv";
   @media print {
     article h3 span {
       animation-name: none;
+    }
+
+    article h3 {
+      color: #111;
     }
   }
 </style>

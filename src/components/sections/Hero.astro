@@ -26,9 +26,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 <Section>
   <div class="container">
     <div class="info">
-      <h1>{name}</h1>
-      <h2>{label}</h2>
-      <span>
+      <h1 class="hero title-name">{name}</h1>
+      <h2 class="hero title-label">{label}</h2>
+      <span id="hero-loc">
         <WorldMap />
         {state}, {country}
       </span>
@@ -129,15 +129,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     width: 128px;
     border-radius: 16px;
   } */
-
-  span {
-    color: #666;
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-    font-size: 0.85rem;
-    letter-spacing: -0.05rem;
-  }
 
   footer {
     color: #555;
