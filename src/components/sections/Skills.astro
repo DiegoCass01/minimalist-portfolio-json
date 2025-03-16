@@ -55,7 +55,8 @@ const SKILLS_ICONS: Record<string, any> = {
 
                 return (
                   <li>
-                    {Icon && <Icon />} <span class="skillList">{name}</span>
+                    <p class="no-print">{Icon && <Icon />} </p>{" "}
+                    <span class="skillList">{name}</span>
                   </li>
                 );
               })}
