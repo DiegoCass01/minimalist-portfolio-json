@@ -48,14 +48,14 @@ const SKILLS_ICONS: Record<string, any> = {
       Object.entries(skills).map(([category, items]) => {
         return (
           <article>
-            <header>{category.toUpperCase()}</header>
+            <header class="title-category">{category.toUpperCase()}</header>
             <footer>
               {items.map(({ name }) => {
                 const Icon = SKILLS_ICONS[name.toLowerCase()];
 
                 return (
                   <li>
-                    {Icon && <Icon />} <span>{name}</span>
+                    {Icon && <Icon />} <span class="skillList">{name}</span>
                   </li>
                 );
               })}
@@ -77,7 +77,7 @@ const SKILLS_ICONS: Record<string, any> = {
     align-items: center;
     background: #eee;
     border-radius: 6px;
-    color: black;
+    color: #222;
     display: flex;
     font-size: 0.8rem;
     font-weight: 500;
