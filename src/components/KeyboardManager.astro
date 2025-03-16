@@ -128,13 +128,17 @@ const profilesInfo = profiles.map(({ network, url }) => {
       section: "Actions",
       id: "Theme",
       title: "Change Theme",
-      icon: `<svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" />
-          <path d="M7 20h10" />
-          <path d="M9 16v4" />
-          <path d="M15 16v4" />
-        </svg>
-        `,
+      icon: `<svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="20"
+      viewBox="0 -960 960 960"
+      width="20"
+      fill="currentColor"
+      style="margin-right: 20px;" stroke-width="2"
+      ><path
+      d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm40-83q119-15 199.5-104.5T800-480q0-123-80.5-212.5T520-797v634Z"
+      ></path></svg
+      >`,
       hotkey: `${hotkeypad.activationKey} + D`,
       handler: () => {
         document.documentElement.classList.toggle("dark");
