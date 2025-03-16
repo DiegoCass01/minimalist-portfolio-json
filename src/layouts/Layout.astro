@@ -6,6 +6,11 @@
     <link rel="icon" type="image/svg+xml" href="/iconApp.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>Minimalist Portfolio</title>
+    <script>
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
   </head>
   <body>
     <slot />
@@ -23,6 +28,35 @@
       monospace;
     background: #fff;
     letter-spacing: -0.025rem;
+  }
+
+  .dark {
+    background-color: #1a1a2e;
+    color: white;
+  }
+
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark p,
+  .dark time,
+  .dark a,
+  .dark span {
+    color: white !important;
+  }
+
+  .dark .skillList {
+    color: black !important;
+  }
+
+  .dark #normal-footer {
+    background-color: #1a1a2e;
+    border-top: 1px solid #eee;
+  }
+
+  .dark kbd {
+    color: #1a1a2e !important;
   }
 
   body,
